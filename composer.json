@@ -1,0 +1,17 @@
+{
+    "name": "ramiro/ajax",
+    "description": "seh version 0.0.2 test",
+    "type": "project",
+    "require-dev": {
+        "ramirogg/seh": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rgg7888",
+            "email": "rgg7888@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
