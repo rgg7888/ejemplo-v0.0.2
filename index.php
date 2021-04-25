@@ -2,8 +2,7 @@
 
 require_once __DIR__ . "/vendor/autoload.php";
 
-dt();
-lmh([
+pagina([
     head([
         metaGroup("Free html system","html, php, css, javascript","Ramiro G"),
         title("Http Requests & JavaScript"),
@@ -16,4 +15,4 @@ lmh([
             button("POST Data","ipost-btn")
         ],"icontrol-center")
     ])
-],'en');
+],'len');
