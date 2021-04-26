@@ -2,12 +2,15 @@
 
 require_once __DIR__ . "/vendor/autoload.php";
 
-pagina([
+my_site([
     head([
         metaGroup("Free html system","html, php, css, javascript","Ramiro G"),
         title("Http Requests & JavaScript"),
         lnk("rstylesheet|happ.css"),
-        script("sxhr.js|d")
+        script([
+            get_simple(1,['getBtn'],['get-btn'],['getData'],"https://reqres.in/api/users"),
+            false
+        ])
     ]),
     body([
         section([
